@@ -1,0 +1,3 @@
+type ItemSummary {
+  search(parameter: InputSearch!): Search
+}

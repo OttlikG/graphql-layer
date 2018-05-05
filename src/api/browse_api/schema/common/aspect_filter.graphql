@@ -1,0 +1,7 @@
+type AspectFilter {
+  # The ID of the category. This limits the aspects to this category.
+  categoryId: Search
+
+  # This query parameter supports multiple field filters that can be used to use to limit/customize the result set. See the input for the search call for a list of filters supported.
+  filters: [FilterField]
+}

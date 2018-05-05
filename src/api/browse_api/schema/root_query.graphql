@@ -1,0 +1,4 @@
+type RootQueryType {
+  # itemSummary: ItemSummary
+  itemSummary: String
+}

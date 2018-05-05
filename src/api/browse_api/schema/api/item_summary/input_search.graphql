@@ -1,0 +1,31 @@
+input InputSearch {
+  # This field lets you search by the Global Trade Item Number of the item as defined by http://www.gtin.info. This can be a UPC (Universal Product Code), EAN (European Article Number), or an ISBN (International Standard Book Number) value. 
+  gtin: String
+
+  # The EPID is the eBay product identifier of a product from the eBay product catalog. Only items in the specified EPID are returned. The Marketing API getMerchandisedProducts call and the getItem, getItemByLegacyId, and getItemsByItemGroup calls return the EPID of the product. 
+  epid: String
+
+  # The aspect name/value pairs and category, which is required, is used to limit the results to specific aspects of the item. For example, in a clothing category one aspect pair would be Color/Red. 
+  aspect_filter: AspectFilter
+
+  # This field lets you control what is to be returned in the response. The default is MATCHING_ITEMS, which returns the items that match the keyword or category specified. The other values return data that can be used to create histograms. For code examples see, aspect_filter. 
+  fieldgroups: [Strign]
+
+  # The number of items to skip in the result set. This is used with the limit field to control the pagination of the output. 
+  offset: String
+
+  # The number of items in a result set. 
+  limit: String
+
+  # Specifies the order and the field name to use to sort the items. To sort in descending order use - before the field name. Currently, you can only sort by price (in ascending or descending order), or by distance (only applicable if the "pickup" filters are used, and only ascending order is supported). 
+  sort: [SortField]
+
+  # This field supports multiple field filters that can be used to use to limit/customize the result set. 
+  filter: [FilterField]
+
+  # The category ID is used to limit the results. This field can have one category ID or a comma separated list of IDs.
+  category_ids: [String]
+
+  # A string consisting of one or more keywords that are used to search for items on eBay. 
+  q: String
+}
