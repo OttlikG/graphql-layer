@@ -1,0 +1,466 @@
+enum CurrencyCodeEnum {
+  # Indicates the currency is United Arab Emirates dirham.
+  AED
+
+  # Indicates the currency is Afghan afghani.
+  AFN
+
+  # Indicates the currency is Albanian lek.
+  ALL
+
+  # Indicates the currency is Armenian dram.
+  AMD
+
+  # Indicates the currency is Netherlands Antillean guilder.
+  ANG
+
+  # Indicates the currency is Angolan kwanza.
+  AOA
+
+  # Indicates the currency is Argentine peso.
+  ARS
+
+  # Indicates the currency is Australian dollar.
+  AUD
+
+  # Indicates the currency is Aruban florin.
+  AWG
+
+  # Indicates the currency is Azerbaijani manat.
+  AZN
+
+  # Indicates the currency is Bosnia and Herzegovina convertible mark.
+  BAM
+
+  # Indicates the currency is Barbados dollar.
+  BBD
+
+  # Indicates the currency is Bangladeshi taka.
+  BDT
+
+  # Indicates the currency is Bulgarian lev.
+  BGN
+
+  # Indicates the currency is Bahraini dinar.
+  BHD
+
+  # Indicates the currency is Burundian franc.
+  BIF
+
+  # Indicates the currency is Bermudian dollar.
+  BMD
+
+  # Indicates the currency is Brunei dollar.
+  BND
+
+  # Indicates the currency is Bolivian Boliviano.
+  BOB
+
+  # Indicates the currency is Brazilian real.
+  BRL
+
+  # Indicates the currency is Bahamian dollar.
+  BSD
+
+  # Indicates the currency is Bhutanese ngultrum.
+  BTN
+
+  # Indicates the currency is Botswana pula.
+  BWP
+
+  # Indicates the currency is Belarusian ruble.
+  BYR
+
+  # Indicates the currency is Belize dollar.
+  BZD
+
+  # Indicates the currency is Canadian dollar.
+  CAD
+
+  # Indicates the currency is Congolese franc.
+  CDF
+
+  # Indicates the currency is Swiss franc.
+  CHF
+
+  # Indicates the currency is Chilean peso.
+  CLP
+
+  # Indicates the currency is Chinese yuan renminbi.
+  CNY
+
+  # Indicates the currency is Colombian peso.
+  COP
+
+  # Indicates the currency is Costa Rican colon.
+  CRC
+
+  # Indicates the currency is Cuban peso.
+  CUP
+
+  # Indicates the currency is Cape Verde escudo.
+  CVE
+
+  # Indicates the currency is Czech koruna.
+  CZK
+
+  # Indicates the currency is Djiboutian franc.
+  DJF
+
+  # Indicates the currency is Danish krone.
+  DKK
+
+  # Indicates the currency is Dominican peso.
+  DOP
+
+  # Indicates the currency is Algerian dinar.
+  DZD
+
+  # Indicates the currency is Egyptian pound.
+  EGP
+
+  # Indicates the currency is Eritrean nakfa.
+  ERN
+
+  # Indicates the currency is Ethiopian birr.
+  ETB
+
+  # Indicates the currency is European Union euro.
+  EUR
+
+  # Indicates the currency is Fiji dollar.
+  FJD
+
+  # Indicates the currency is Falkland Islands pound.
+  FKP
+
+  # Indicates the currency is British pound sterling.
+  GBP
+
+  # Indicates the currency is Georgian lari.
+  GEL
+
+  # Indicates the currency is Ghanaian cedi.
+  GHS
+
+  # Indicates the currency is Gibraltar pound.
+  GIP
+
+  # Indicates the currency is Gambian dalasi.
+  GMD
+
+  # Indicates the currency is Guinean franc.
+  GNF
+
+  # Indicates the currency is Guatemalan quetzal.
+  GTQ
+
+  # Indicates the currency is Guyanese dollar.
+  GYD
+
+  # Indicates the currency is Hong Kong dollar.
+  HKD
+
+  # Indicates the currency is Honduran lempira.
+  HNL
+
+  # Indicates the currency is Croatian kuna.
+  HRK
+
+  # Indicates the currency is Haitian gourde.
+  HTG
+
+  # Indicates the currency is Hungarian forint.
+  HUF
+
+  # Indicates the currency is Indonesian rupiah.
+  IDR
+
+  # Indicates the currency is Israeli new shekel.
+  ILS
+
+  # Indicates the currency is Indian rupee.
+  INR
+
+  # Indicates the currency is Iraqi dinar.
+  IQD
+
+  # Indicates the currency is Iranian rial.
+  IRR
+
+  # Indicates the currency is Icelandic krona.
+  ISK
+
+  # Indicates the currency is Jamaican dollar.
+  JMD
+
+  # Indicates the currency is Jordanian dinar.
+  JOD
+
+  # Indicates the currency is Japanese yen.
+  JPY
+
+  # Indicates the currency is Kenyan shilling.
+  KES
+
+  # Indicates the currency is Kyrgyzstani som.
+  KGS
+
+  # Indicates the currency is Cambodian riel.
+  KHR
+
+  # Indicates the currency is Comoro franc.
+  KMF
+
+  # Indicates the currency is North Korean won.
+  KPW
+
+  # Indicates the currency is South Korean won.
+  KRW
+
+  # Indicates the currency is Kuwaiti dinar.
+  KWD
+
+  # Indicates the currency is Cayman Islands dollar.
+  KYD
+
+  # Indicates the currency is Kazakhstani tenge.
+  KZT
+
+  # Indicates the currency is Lao kip.
+  LAK
+
+  # Indicates the currency is Lebanese pound.
+  LBP
+
+  # Indicates the currency is Sri Lankan rupee.
+  LKR
+
+  # Indicates the currency is Liberian dollar.
+  LRD
+
+  # Indicates the currency is Lesotho loti.
+  LSL
+
+  # Indicates the currency is Lithuanian litas.
+  LTL
+
+  # Indicates the currency is Libyan dinar.
+  LYD
+
+  # Indicates the currency is Moroccan dirham.
+  MAD
+
+  # Indicates the currency is Moldovan leu.
+  MDL
+
+  # Indicates the currency is Malagasy ariary.
+  MGA
+
+  # Indicates the currency is Macedonian denar.
+  MKD
+
+  # Indicates the currency is Myanmar kyat.
+  MMK
+
+  # Indicates the currency is Mongolian tugrik.
+  MNT
+
+  # Indicates the currency is Macanese pataca.
+  MOP
+
+  # Indicates the currency is Mauritanian ouguiya.
+  MRO
+
+  # Indicates the currency is Mauritian rupee.
+  MUR
+
+  # Indicates the currency is Maldivian rufiyaa.
+  MVR
+
+  # Indicates the currency is Malawian kwacha.
+  MWK
+
+  # Indicates the currency is Mexican peso.
+  MXN
+
+  # Indicates the currency is Malaysian ringgit.
+  MYR
+
+  # Indicates the currency is Mozambican metical.
+  MZN
+
+  # Indicates the currency is Namibian dollar.
+  NAD
+
+  # Indicates the currency is Nigerian naira.
+  NGN
+
+  # Indicates the currency is Nicaraguan cordoba oro.
+  NIO
+
+  # Indicates the currency is Norwegian krone.
+  NOK
+
+  # Indicates the currency is Nepalese rupee.
+  NPR
+
+  # Indicates the currency is New Zealand dollar.
+  NZD
+
+  # Indicates the currency is Omani rial.
+  OMR
+
+  # Indicates the currency is Panamanian balboa.
+  PAB
+
+  # Indicates the currency is Peruvian sol.
+  PEN
+
+  # Indicates the currency is Papua New Guinean kina.
+  PGK
+
+  # Indicates the currency is Philippine peso.
+  PHP
+
+  # Indicates the currency is Pakistani rupee.
+  PKR
+
+  # Indicates the currency is Polish zloty.
+  PLN
+
+  # Indicates the currency is Paraguayan guarani.
+  PYG
+
+  # Indicates the currency is Qatari riyal.
+  QAR
+
+  # Indicates the currency is Romanian leu.
+  RON
+
+  # Indicates the currency is Serbian dinar.
+  RSD
+
+  # Indicates the currency is Russian ruble.
+  RUB
+
+  # Indicates the currency is Rwandan franc.
+  RWF
+
+  # Indicates the currency is Saudi riyal.
+  SAR
+
+  # Indicates the currency is Solomon Islands dollar.
+  SBD
+
+  # Indicates the currency is Seychelles rupee.
+  SCR
+
+  # Indicates the currency is Sudanese pound.
+  SDG
+
+  # Indicates the currency is Swedish krona.
+  SEK
+
+  # Indicates the currency is Singapore dollar.
+  SGD
+
+  # Indicates the currency is Saint Helena pound.
+  SHP
+
+  # Indicates the currency is Sierra Leonean leone.
+  SLL
+
+  # Indicates the currency is Somali shilling.
+  SOS
+
+  # Indicates the currency is Surinamese dollar.
+  SRD
+
+  # Indicates the currency is Sao Tome and Principe dobra.
+  STD
+
+  # Indicates the currency is Syrian pound.
+  SYP
+
+  # Indicates the currency is Swazi lilangeni.
+  SZL
+
+  # Indicates the currency is Thai baht.
+  THB
+
+  # Indicates the currency is Tajikistani somoni.
+  TJS
+
+  # Indicates the currency is Turkmenistani manat.
+  TMT
+
+  # Indicates the currency is Tunisian dinar.
+  TND
+
+  # Indicates the currency is Tongan pa'anga.
+  TOP
+
+  # Indicates the currency is Turkish lira.
+  TRY
+
+  # Indicates the currency is Trinidad and Tobago dollar.
+  TTD
+
+  # Indicates the currency is New Taiwan dollar.
+  TWD
+
+  # Indicates the currency is Tanzanian shilling.
+  TZS
+
+  # Indicates the currency is Ukrainian hryvnia.
+  UAH
+
+  # Indicates the currency is Ugandan shilling.
+  UGX
+
+  # Indicates the currency is United States dollar.
+  USD
+
+  # Indicates the currency is Uruguayan peso.
+  UYU
+
+  # Indicates the currency is Uzbekistani som.
+  UZS
+
+  # Indicates the currency is Venezuelan bolivar.
+  VEF
+
+  # Indicates the currency is Vietnamese dong.
+  VND
+
+  # Indicates the currency is Vanuatu vatu.
+  VUV
+
+  # Indicates the currency is Samoan tala.
+  WST
+
+  # Indicates the currency is CFA franc BEAC.
+  XAF
+
+  # Indicates the currency is East Caribbean dollar.
+  XCD
+
+  # Indicates the currency is CFA franc BCEAO.
+  XOF
+
+  # Indicates the currency is CFP franc.
+  XPF
+
+  # Indicates the currency is Yemeni rial.
+  YER
+
+  # Indicates the currency is South African rand.
+  ZAR
+
+  # Indicates the currency is Zambian kwacha.
+  ZMW
+
+  # Indicates the currency is Zimbabwean dollar.
+  ZWL
+}

@@ -1,0 +1,10 @@
+type Image {
+  # Reserved for future use.
+  height: Int
+
+  # A string that is the URL of the image.
+  imageUrl: String
+
+  # Reserved for future use.
+  width: Int
+}

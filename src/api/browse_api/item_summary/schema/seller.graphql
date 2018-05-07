@@ -1,0 +1,13 @@
+type Seller {
+  # The percentage of the total positive feedback.
+  feedbackPercentage: String
+
+  # The feedback score of the seller. This value is based on the ratings from eBay members that bought items from this seller.
+  feedbackScore: Int
+
+  # Indicates if the seller is a business or an individual. This is determined when the seller registers with eBay. If they register for a business account, this value will be BUSINESS. If they register for a private account, this value will be INDIVIDUAL. This designation is required by the tax laws in some countries. 
+  sellerAccountType: String
+
+  # The user name created by the seller for use on eBay.
+  username: String
+}

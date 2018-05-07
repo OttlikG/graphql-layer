@@ -1,0 +1,4 @@
+input SortFieldInput {
+  ascending: Boolean,
+  field: String
+}

@@ -1,0 +1,57 @@
+type ItemSummary {
+  # An array of containers with the URLs for the images that are in addition to the primary image. The primary image is returned in the image.imageUrl field.
+  # additionalImages: [Image]
+  # adultOnly: Boolean
+  # bidCount: Int
+  # buyingOptions: [String]
+  # categories: [Category]
+  # condition: String
+  # conditionId: String
+  # currentBidPrice: ConvertedAmount
+  # distanceFromPickupLocation: TargetLocation
+  # energyEfficiencyClass: String
+  # epid: String
+  image: Image
+  # itemAffiliateWebUrl: String
+  # itemGroupHref: String
+  # itemGroupType: String
+
+  # The URI of the item. This field is always populated.
+  itemHref: String
+
+  # The unique identifier of the item.
+  itemId: String
+
+  # This container gives the location of the item. This container consists of fields you typically see for an address, including postal code, county, state/province, street address, city, and country (2-digit ISO code).
+  # itemLocation: ItemLocationImpl
+
+  # The URL to the View Item page of the item. This enables you to include a "Report Item on eBay" hyperlink that takes the buyer to the View Item page on eBay. From there they can report any issues regarding this item to eBay.
+  itemWebUrl: String
+
+  # This container is returned if the item is eligible for a seller discount, and consists of the item's original price, and the seller discount amount and percentage.
+  # marketingPrice: MarketingPrice
+
+  # This container lists the local pickup options available to the buyer. This container is only returned if the user is searching for local pickup items and set the local pickup filters in the call request.
+  # pickupOptions: [PickupOptionSummary]
+
+  # The price of the item.
+  price: ConvertedAmount
+
+  # This container returns basic information about the seller of the item, such as name, feedback score, etc.
+  seller: Seller
+
+  # This container returns the shipping options available to ship the item.
+  # shippingOptions: [ShippingOptionSummary]
+
+  # An array of thumbnail images for the item. For each image, the URL to the image is given.
+  thumbnailImages: [Image]
+
+  # The seller-created title of the item. The maximum length is 80 characters.
+  title: String
+
+  # This is the price per unit for the item. Some European countries require listings for certain types of products to include the price per unit so buyers can accurately compare prices. 
+  # unitPrice: ConvertedAmount
+
+  # The designation, such as size, weight, volume, count, etc., that was used to specify the quantity of the item. This helps buyers compare prices. 
+  # unitPricingMeasure: String
+}

@@ -1,0 +1,7 @@
+input RangeValueInput {
+  end: String,
+  exclusiveEnd: Boolean,
+  exclusiveStart: Boolean,
+  range: Boolean,
+  start: String
+}

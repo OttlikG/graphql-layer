@@ -1,0 +1,31 @@
+type Search {
+  # The URI of the current result set. 
+  href: String
+
+  # An array of items in one result set. The items are sorted according to the sorting method specified in the request.
+  itemSummaries: [ItemSummary]
+
+  # The maximum number of items that can be returned in a result set. The limit value is set in the request.
+  limit: Int
+
+  # The URL for the next result set. This is returned if there is a next result set. 
+  next: String
+
+  # This value indicates the current 'page' of items being displayed. This value is 0 for the first page of data, 1 for the second page of data, and so on.
+  offset: Int
+
+  # The URL for the previous result set. This is returned if there is a previous result set.
+  prev: String
+
+  # The container for all the search refinements.
+  # refinement: Refinement
+
+  # The total number of items that match the input criteria.
+  total: Int
+
+  # The container with all the warnings for the input request.
+  # warnings: [ErrorDetailV3]
+
+  # Unique identifier for Irish addresses
+  eircode: String
+}

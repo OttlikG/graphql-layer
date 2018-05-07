@@ -1,0 +1,16 @@
+input FilterFieldInput {
+  # Provides a way to specify a field in a filter.
+  field: String
+
+  # This query parameter supports multiple field filters that can be used to use to limit/customize the result set. See the input for the search call for a list of filters supported.
+  negated: Boolean
+
+  # Provides a way to specify a range of values in a filter.
+  # range: RangeValue
+
+  # Provides a way to specify a "list of values" in a filter.
+  set: [String]
+
+  # Provides a way a value in a filter.
+  value: String
+}

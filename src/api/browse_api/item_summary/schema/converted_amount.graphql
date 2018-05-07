@@ -1,0 +1,7 @@
+type ConvertedAmount {
+  # A three-letter ISO 4217 code that indicates the currency of the amount in the value field. If currency conversion/localization is required, this is the post-conversion currency of the amount in the value field.
+  currency: CurrencyCodeEnum
+
+  # The monetary amount, in the currency specified by the currency field. If currency conversion/localization is required, this value is the converted amount, and the convertedFromValue field contains the amount in the original currency.
+  value: String
+}
